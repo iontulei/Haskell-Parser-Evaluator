@@ -182,7 +182,7 @@ matching (in our EDSL) to a single definition with if-expressions. The μFP func
     - Correct parsing of µFP code.
     - Proper evaluation of µFP functions and expressions.
 
-### How to Run
+## How to Run
 
 1. Compile the project using `GHC`.
 
@@ -209,7 +209,7 @@ runFile "path/fib.txt" [10]
 
 This will compute the 10th Fibonacci number using the µFP language.
 
-### Conclusion
+## Conclusion
 
 This project demonstrates the implementation of a functional programming language and highlights core concepts such as parser combinators, EDSL design, and functional evaluation. The µFP language provides a simplified environment to practice these concepts, and the project showcases how to build an interpreter from the ground up using Haskell.
 
